@@ -1,5 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
+
 html{
   background-color: lightgrey;
+}
+
+#titolo-grande{
+  margin-bottom: 30px;
 }
 
 body {
@@ -31,7 +41,6 @@ h4 span {
   color: lightskyblue;
 
 }
-
 h5 {
   font-size: 8pt;
   color: lightgray;
@@ -41,4 +50,63 @@ h5 {
 
 figcaption {
   font-size: 10pt;
+}
+
+.articolo p span {
+  background-color: yellow;
+}
+
+#list {
+  margin-left: 10px;
+}
+
+.articolo, #list, table {
+  margin-top: 40px;
+}
+thead td {
+  width: 20%;
+  background-color: lightskyblue;
+  font-weight: bold;
+  color: white;
+}
+
+tr {
+  height: 10px;
+}
+
+.tab-azzurra {
+  background-color: lightblue;
+}
+
+#ultimo-paragrafo {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+#ultimo-paragrafo h4 {
+  margin-top: 20px;
+}
+
+.immagine1 {
+  background-image: url(img/monitor.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+}
+
+.immagine2 {
+  margin-top: 3px;
+  background-image: url(img/graph.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
 }
