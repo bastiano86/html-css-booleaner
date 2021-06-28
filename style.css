@@ -1,0 +1,21 @@
+body {
+  width: 85%;
+}
+
+header{
+  height: 100px;
+  background-color: lightskyblue;
+  background-image: url(img/pattern.png);
+  background-repeat: repeat-x;
+  background-size: 300px ;
+}
+
+header img {
+  height: 40px;
+  margin-top: 63px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 24pt;
+}
